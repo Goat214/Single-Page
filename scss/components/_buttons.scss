@@ -1,0 +1,13 @@
+.header__btn {
+  background: var(--Black, #030303);
+  color: #fff7f0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.8rem;
+  transition: 0.3s;
+  &:hover {
+    background: var(--1---Galactic-Blue, #755cde);
+  }
+}

@@ -1,0 +1,288 @@
+.hero {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+.hero__title {
+  color: var(--Black, #030303);
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2.3rem;
+}
+.hero__discription {
+  color: var(--Medium-Brown, #7a746e);
+  text-align: center;
+
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.8rem;
+  width: 73rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13.6rem;
+}
+.cards__left {
+  width: 35.4rem;
+  height: 36.4rem;
+  flex-shrink: 0;
+  border-radius: 0.8rem;
+  background: var(--1---Galactic-Blue, #755cde);
+  padding: 2.4rem;
+  background-image: url(../../imges/cards-graphic-design.svg);
+  background-repeat: no-repeat;
+  background-position: right 2.4rem top 2.4rem;
+  display: flex;
+  align-items: end;
+}
+.cards__center {
+}
+.cards__center__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+.cards__center__top__first {
+  width: 16.4rem;
+  height: 18.2rem;
+  flex-shrink: 0;
+  border-radius: 0.8rem;
+
+  background: var(--2---Summer-Yellow, #f6a560);
+  display: flex;
+  align-items: end;
+  padding: 2.4rem;
+  background-image: url(../../imges/cards-ui-ux.svg);
+  background-repeat: no-repeat;
+  background-position: top 2.4rem right 2.4rem;
+}
+.cards__center__top__secand {
+  width: 16.4rem;
+  height: 18.2rem;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f39e9e;
+  display: flex;
+  align-items: end;
+  padding: 2.4rem;
+  background-image: url(../../imges/cards-app.svg);
+  background-repeat: no-repeat;
+  background-position: top 2.4rem right 2.4rem;
+}
+.cards__center__bottom {
+  width: 35.4rem;
+  height: 15.8rem;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--4---Light-Red, #eb7565);
+  display: flex;
+  align-items: end;
+  padding: 2.4rem;
+  background-image: url(../../imges/cards-illustration.svg);
+  background-repeat: no-repeat;
+  background-position: top 2.4rem right 2.4rem;
+}
+.cards__right {
+}
+
+.cards__right__first {
+  width: 35.4rem;
+  height: 18.2rem;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--5---Cyan, #61c4b7);
+  margin-bottom: 2.4rem;
+  display: flex;
+  align-items: end;
+  padding: 2.4rem;
+  background-image: url(../../imges/cards-photography.svg);
+  background-repeat: no-repeat;
+  background-position: top 2.4rem right 2.4rem;
+}
+.cards__right__secend {
+  width: 35.4rem;
+  height: 15.8rem;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #552049;
+  display: flex;
+  align-items: end;
+  padding: 2.4rem;
+  background-image: url(../../imges/cards-motion-graphics.svg);
+  background-repeat: no-repeat;
+  background-position: top 2.4rem right 2.4rem;
+}
+
+.cards-title {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8.8rem;
+}
+.container {
+}
+
+.about__img {
+  width: 44.5rem;
+  height: 44.5rem;
+  border-radius: 50%;
+  background: #61c4b7;
+  display: flex;
+  align-items: end;
+  background-image: url(../../imges/amy-2.png), url(../../imges/amy-icon-1.svg),
+    url(../../imges/amy-icon-2.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom, left top 9rem, right bottom 8.5rem;
+}
+
+.about__intro {
+  width: 54rem;
+  height: 30.6rem;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+.about__intro__title {
+  color: var(--Black, #030303);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 3.4rem;
+}
+.about__intro__description {
+  color: var(--Medium-Brown, #7a746e);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.8rem;
+  margin-bottom: 3.2rem;
+}
+
+.about__intro__btn {
+  color: #fff7f0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.8rem;
+  background: var(--4---Light-Red, #eb7565);
+  transition: 0.3s;
+  &:hover {
+    background: var(--2---Summer-Yellow, #f6a560);
+  }
+}
+
+.mywork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mywork__title {
+  color: var(--Black, #030303);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Plus Jakarta Sans";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5.6rem;
+}
+.mywork__img {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 5.6rem;
+
+  img {
+    border-radius: 1rem;
+  }
+}
+.mywork__btn {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 8.8rem;
+}
+.mywork__btn__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.4rem;
+  width: 6.4rem;
+  background-color: #030303;
+  border-radius: 50%;
+  transition: 0.3s;
+  &:hover {
+    background-color: #755cde;
+  }
+}
+
+.call {
+  height: 32rem;
+  border-radius: 1rem;
+  background: var(--Black, #030303);
+  display: flex;
+  padding: 8.1rem 9.5rem 8rem 6.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5.6rem;
+}
+.call__info {
+}
+.call__info__title {
+  color: var(--Light-Cream, #fff7f0);
+  font-family: "Plus Jakarta Sans";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2.5rem;
+}
+.call__info__description {
+  color: var(--Light-Cream, #fff7f0);
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.8rem;
+  width: 54rem;
+}
+.btn {
+}
+
+.call__btn {
+  color: #fff7f0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  background: var(--4---Light-Red, #eb7565);
+  transition: 0.3s;
+  &:hover {
+    background: var(--2---Summer-Yellow, #f6a560);
+  }
+}
